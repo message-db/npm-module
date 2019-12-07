@@ -1,0 +1,14 @@
+{
+  "name": "@eventide/message-db",
+  "version": "1.0.0",
+  "description": "Microservice native event store and message store for Postgres",
+  "author": "Eventide Project",
+  "license": "MIT",
+  "homepage": "https://github.com/message-db/message-db",
+  "files": [
+    "MIT-License.txt",
+    "README.md",
+    "package.json",
+    "database/*"
+  ]
+}
