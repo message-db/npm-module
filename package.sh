@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
 ./import-database-scripts.sh
-rm eventide-postgres-message-store-*.tgz
+rm eventide-message-db-*.tgz
 npm pack
