@@ -12,6 +12,34 @@ For more information, see:
 
 [https://github.com/message-db/message-db](https://github.com/message-db/message-db)
 
+## Installation
+
+``` bash
+npm install @eventide/message-db
+```
+
+## Create the Postgres Database
+
+Running the database installation tool creates the database, schema, table, indexes, functions, views, types, a user role, and limit the user's privileges to the message store's public interface.
+
+**Note: Make sure that your default Postgres user has administrative privileges.**
+
+To execute the update script, navigate to the directory where the `message-db` module is installed and run the script:
+
+``` bash
+install.sh
+```
+
+### Database Name
+
+By default, the database creation tool will create a database named `message_store`.
+
+If you prefer either a different database name, you can override the name using the `DATABASE_NAME` environment variable.
+
+``` bash
+DATABASE_NAME=some_other_database install.sh
+```
+
 ## Documentation
 
 See the Message DB documentation on the Eventide docs site:
@@ -21,39 +49,3 @@ See the Message DB documentation on the Eventide docs site:
 ## License
 
 The `message-db` library is released under the [MIT License](https://github.com/message-db/npm-module/blob/master/MIT-License.txt).
-
-
-
-
-
-
-
-
-
-xxxxxxxxxxxxxxxx
-
-# Postgres Message Store Database
-
-Database definition and tools for PostgreSQL message store
-
-## Installation
-
-``` bash
-npm install @eventide/postgres-message-store
-```
-
-## Documentation
-
-See the message store documentation on the Eventide docs site:
-
-[http://docs.eventide-project.org/user-guide/message-store/](http://docs.eventide-project.org/user-guide/message-store/)
-
-## Database Definition Script Files
-
-The database is defined by raw SQL scripts. You can examine them, or execute them directly with the `psql` command line tool.
-
-[https://github.com/eventide-project/postgres-message-store-database/tree/master/database/](https://github.com/eventide-project/postgres-message-store-database/tree/master/database/)
-
-## License
-
-The `Postgres Message Store Database` library is released under the [MIT License](https://github.com/eventide-project/postgres-message-store-npm-package/blob/master/MIT-License.txt).
