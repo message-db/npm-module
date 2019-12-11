@@ -6,6 +6,30 @@
 
 A fully-featured event store and message store implemented entirely in PostgreSQL, supporting event sourcing and messaging applications and services.
 
+## Features
+
+- Pub/Sub
+- JSON message data
+- Event streams
+- Metadata
+- Message storage
+- Consumer groups
+- Service host
+- Administration tools
+- Reports
+
+## Rationale
+
+An event sourcing and Pub/Sub message store built on Postgres for simple cloud or local hosting. An implementation of the essential features of tools like [Event Store](https://eventstore.org), with built-in support for messaging patterns like Pub/Sub, and consumer patterns like consumer groups.
+
+Message DB was extracted from the [Eventide Project](http://docs.eventide-project.org) to make it easier for users to write clients in the language of their choosing.
+
+## User Guide
+
+A complete user guide is available on the Eventide Project docs site:
+
+[http://docs.eventide-project.org/user-guide/message-db/](http://docs.eventide-project.org/user-guide/message-db/)
+
 ## NPM Distribution of Message DB
 
 This library is an NPM module package of the Message DB database for Postgres.
@@ -41,12 +65,6 @@ If you prefer either a different database name, you can override the name using 
 ``` bash
 DATABASE_NAME=some_other_database install.sh
 ```
-
-## Documentation
-
-See the Message DB documentation on the Eventide docs site:
-
-[http://docs.eventide-project.org/user-guide/message-db/](http://docs.eventide-project.org/user-guide/message-db/)
 
 ## License
 
