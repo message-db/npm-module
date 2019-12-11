@@ -1,3 +1,5 @@
+![Message DB](http://docs.eventide-project.org/message-db-logo-90x105.png)
+
 # Message DB
 
 **Microservice Native Event Store and Message Store for Postgres**
