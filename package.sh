@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
+./clean.sh
 ./import-database-scripts.sh
-rm eventide-message-db-*.tgz
 npm pack
