@@ -8,7 +8,6 @@ Message DB compatibility: [1.2.0](https://github.com/message-db/message-db/relea
 
 - Install script will not create the database when the CREATE_DATABASE environment variable is set to "off"
 
-
 ## 1.1.6
 
 Mon Jan 6 2020
