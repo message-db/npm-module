@@ -1,6 +1,6 @@
 {
   "name": "@eventide/message-db",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Microservice native event store and message store for Postgres",
   "author": "Eventide Project",
   "license": "MIT",
