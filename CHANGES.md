@@ -1,5 +1,13 @@
 # Changes
 
+## 1.2.3
+
+Fri May 15 2020
+
+Message DB compatibility: [1.2.3](https://github.com/message-db/message-db/releases/tag/v1.2.3)
+
+- The `md5` function is no longer granted privileges for the message_store user as the function is built-in and the grant is superfluous
+
 ## 1.2.2
 
 Mon May 4 2020
