@@ -1,5 +1,13 @@
 # Changes
 
+## 1.2.6
+
+Sat Mar 13 2021
+
+Message DB compatibility: [1.2.6](https://github.com/message-db/message-db/releases/tag/v1.2.6)
+
+- The `uninstall.sh` script quotes the database name when dropping it, allowing database names that contain dashes
+
 ## 1.2.5
 
 Fri Mar 12 2021
