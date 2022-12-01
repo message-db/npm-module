@@ -3,5 +3,5 @@
 set -e
 
 ./clean.sh
-./import-database-scripts.sh
+./import-database-directory.sh
 npm pack
