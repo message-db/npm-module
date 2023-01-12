@@ -8,7 +8,7 @@ echo "= = ="
 
 if [ -z ${MESSAGE_DB_HOME+x} ]; then
   echo "MESSAGE_DB_HOME is not set"
-  exit
+  exit 1
 fi
 
 default_database_source="$MESSAGE_DB_HOME/message-db/database"
