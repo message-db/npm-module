@@ -1,5 +1,13 @@
 # Changes
 
+## 1.3.1
+
+Wed Jan 11 2022
+
+Message DB compatibility: [1.3.0](https://github.com/message-db/message-db/releases/tag/v1.3.0)
+
+- Correction to the 1.3.0 package that was missing the database scripts
+
 ## 1.3.0
 
 Wed Oct 12 2022
